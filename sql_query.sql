@@ -1,13 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh18000\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 -- SECTION 1: Table Creation\
-\
-\
+-- SECTION 1: Table Creation\
 CREATE TABLE fashion_data (\
     user_uuid TEXT,\
     category TEXT,\
@@ -20,8 +11,8 @@ CREATE TABLE fashion_data (\
     item_id TEXT,\
     stars INTEGER,\
     subscription_date DATE\
-);\
-\
+);
+
 -- SECTION 2: Data Preparation for 2021 Analysis\
 CREATE OR REPLACE VIEW fashion_data_2021 AS\
 SELECT\
